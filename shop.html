@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plans - L1XIO</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="header-content">
+            <a href="index.html" class="logo" aria-label="L1XIO Home">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                    <rect x="4" y="8" width="28" height="32" rx="2" fill="#1E40AF"/>
+                    <rect x="8" y="14" width="16" height="2" rx="1" fill="white"/>
+                    <rect x="8" y="20" width="20" height="2" rx="1" fill="white"/>
+                    <rect x="8" y="26" width="14" height="2" rx="1" fill="white"/>
+                    <circle cx="36" cy="32" r="10" fill="#1E40AF"/>
+                    <circle cx="36" cy="32" r="8" fill="white"/>
+                    <path d="M33 32 L35 34 L40 29" stroke="#1E40AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="38" cy="12" r="6" fill="#FBBF24"/>
+                    <path d="M38 8 L38 12 L41 12" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>L1XIO</span>
+            </a>
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html" aria-current="page">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="license.html">License</a></li>
+                    <li><a href="privacy.html">Privacy</a></li>
+                    <li><a href="accessibility.html">Accessibility</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="imprint.html">Imprint</a></li>
+                    <li><a href="credits.html">Credits</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <h1>Choose Your Plan</h1>
+        <p>Select the subscription plan that fits your organization's needs. All plans include access to L1XIO Agents with AI-powered IT support automation.</p>
+
+        <div class="plans">
+            <article class="plan">
+                <h2>Starter</h2>
+                <p class="plan-price">€499/month</p>
+                <ul>
+                    <li>1 knowledge base</li>
+                    <li>Up to 50 internal users</li>
+                    <li>500 Q&A per month</li>
+                    <li>Email support</li>
+                    <li>Basic analytics</li>
+                </ul>
+                <a href="checkout.html?plan=starter" class="btn">Subscribe</a>
+            </article>
+
+            <article class="plan">
+                <h2>Business</h2>
+                <p class="plan-price">€1,499/month</p>
+                <ul>
+                    <li>5 knowledge bases</li>
+                    <li>Up to 250 internal users</li>
+                    <li>5,000 Q&A per month</li>
+                    <li>Priority support</li>
+                    <li>Advanced analytics</li>
+                    <li>API access</li>
+                    <li>Integrations included</li>
+                </ul>
+                <a href="checkout.html?plan=business" class="btn">Subscribe</a>
+            </article>
+
+            <article class="plan">
+                <h2>Enterprise</h2>
+                <p class="plan-price">Contact Sales</p>
+                <ul>
+                    <li>Unlimited knowledge bases</li>
+                    <li>Unlimited users</li>
+                    <li>Unlimited Q&A</li>
+                    <li>Dedicated support</li>
+                    <li>Custom SLA</li>
+                    <li>On-premise option</li>
+                    <li>Custom integrations</li>
+                    <li>Training included</li>
+                </ul>
+                <a href="checkout.html?plan=enterprise" class="btn">Contact Sales</a>
+            </article>
+        </div>
+
+        <section style="margin-top: var(--spacing-2xl);">
+            <h2>Frequently Asked Questions</h2>
+            <h3>Can I change plans later?</h3>
+            <p>Yes, you can upgrade or downgrade your plan at any time. Changes take effect at the start of the next billing cycle.</p>
+
+            <h3>What payment methods do you accept?</h3>
+            <p>We accept credit cards, bank transfers, and SEPA direct debit for European customers.</p>
+
+            <h3>Is there a free trial?</h3>
+            <p>Contact our sales team to discuss trial options for your organization.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <ul class="footer-links">
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="license.html">License</a></li>
+                <li><a href="imprint.html">Imprint</a></li>
+                <li><a href="accessibility.html">Accessibility</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="credits.html">Credits</a></li>
+            </ul>
+            <p class="footer-notice">This is a student project / demo website. L1XIO Support Systems GmbH is a fictional company created for educational purposes.</p>
+        </div>
+    </footer>
+
+    <div id="cookie-banner" class="cookie-banner hidden" role="dialog" aria-labelledby="cookie-title" aria-describedby="cookie-desc">
+        <div class="cookie-content">
+            <h2 id="cookie-title">Cookie Preferences</h2>
+            <p id="cookie-desc">We use cookies to improve your experience. Necessary cookies are required for the website to function. Analytics cookies help us understand how visitors interact with our website.</p>
+            <div class="cookie-buttons">
+                <button id="cookie-accept" class="btn">Accept All</button>
+                <button id="cookie-reject" class="btn btn-secondary">Reject Non-Essential</button>
+                <button id="cookie-customize-btn" class="btn btn-secondary">Customize</button>
+            </div>
+            <div id="cookie-customize" class="cookie-customize hidden">
+                <div class="cookie-option">
+                    <input type="checkbox" id="cookie-necessary" checked disabled>
+                    <label for="cookie-necessary">Necessary (Required)</label>
+                </div>
+                <div class="cookie-option">
+                    <input type="checkbox" id="cookie-analytics">
+                    <label for="cookie-analytics">Analytics</label>
+                </div>
+                <button id="cookie-save" class="btn">Save Preferences</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

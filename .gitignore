@@ -160,22 +160,6 @@ Temporary Items
 pyvenv.cfg
 .venv
 pip-selfcheck.json
-
 .claude/
-
-### Web ###
-*.asp
-*.cer
-*.csr
-*.css
-*.htm
-*.html
-*.js
-*.jsp
-*.php
-*.rss
-*.wasm
-*.wat
-*.xhtml
 
 # End of https://www.toptal.com/developers/gitignore/api/jetbrains,macos,venv,web
